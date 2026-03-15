@@ -297,8 +297,7 @@ export default function GrihaLakshmi() {
 
         {/* ── PITCH FOOTER ── */}
         <div style={{ textAlign:"center", padding:"28px 0 16px", borderTop:"1px solid rgba(255,255,255,0.05)", marginTop:"28px" }}>
-          <p style={{ color:"#4a4060", fontSize:"11px", margin:"0 0 4px" }}>Built by Gunjan Deshpande · MS Data Science, Stony Brook University</p>
-          <p style={{ color:"#3a3050", fontSize:"11px", margin:0 }}>A concept for Shaadi.com · JeevanSaathi · Anuroop · Tata Trusts · iSPIRT</p>
+          <p style={{ color:"#4a4060", fontSize:"11px", margin:"0 0 4px" }}>Built by Gunjan Deshpande · MS Data Science </p>
           <p style={{ color:"#555", fontSize:"12px", marginTop:"10px" }}>💛 Because every homemaker deserves to know her worth</p>
         </div>
 
