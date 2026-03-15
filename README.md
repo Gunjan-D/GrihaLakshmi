@@ -11,7 +11,7 @@
 
 ---
 
-## 📊 The Problem No One Talks About
+## The Problem No One Talks About
 
 | Fact | Source |
 |------|--------|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🎯 What GrihaLakshmi Does
+## What GrihaLakshmi Does
 
 GrihaLakshmi is an interactive value estimator that calculates — in rupees — the real market worth of a homemaker's daily contributions, using actual 2024 rates for professional equivalents.
 
@@ -42,8 +42,6 @@ GrihaLakshmi is an interactive value estimator that calculates — in rupees —
 - A **pledge flow** — committing a monthly amount to her personal account
 
 ---
-
-## 💼 The Pitch: Why Shaadi.com / JeevanSaathi Should Own This
 
 ### The Feature Play
 Embed GrihaLakshmi as a **"Her Worth" card** in every bride's profile. Show her family's pledge amount. Make it a conversation starter — not a dowry counter, but an **acknowledgement counter**.
@@ -63,7 +61,7 @@ When a woman uses this estimator and sees **₹32,400/month** on screen for the 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -76,7 +74,7 @@ Fully embeddable as an iframe or SDK into any existing web/app platform in under
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Step 1: Her Profile | Step 2: Her Work | Step 3: Her Value |
 |---|---|---|
@@ -84,7 +82,7 @@ Fully embeddable as an iframe or SDK into any existing web/app platform in under
 
 ---
 
-## 🔧 Run Locally
+##  Run Locally
 
 ```bash
 git clone https://github.com/Gunjan-D/GrihaLakshmi.git
@@ -95,7 +93,7 @@ npm run dev        # → localhost:8080
 
 ---
 
-## 🚀 Deploy Updates
+##  Deploy Updates
 
 ```bash
 npm run deploy     # Builds & pushes to GitHub Pages
@@ -108,8 +106,6 @@ npm run deploy     # Builds & pushes to GitHub Pages
 **Gunjan Deshpande**
 MS Data Science · Stony Brook University
 [LinkedIn](https://linkedin.com/in/gunjan-deshpande) · [GitHub](https://github.com/Gunjan-D)
-
-*A concept pitch for: Shaadi.com · JeevanSaathi · Anuroop · Tata Trusts · iSPIRT*
 
 ---
 
