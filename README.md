@@ -1,4 +1,4 @@
-# GrihaLakshmi — *The Wealth of the Home*
+# 🏮 GrihaLakshmi — *The Wealth of the Home*
 ### *गृह लक्ष्मी · India's Homemaker Value Estimator*
 
 **Live Demo → [gunjan-d.github.io/GrihaLakshmi](https://gunjan-d.github.io/GrihaLakshmi/)**
@@ -27,7 +27,7 @@ Not a single matrimonial platform in India acknowledges what a homemaker is wort
 
 ## What GrihaLakshmi Does
 
-An interactive value estimator that calculates — in rupees — the real market worth of a homemaker's daily contributions, using actual 2024 rates for professional equivalents.
+An interactive value estimator that calculates in rupees the real market worth of a homemaker's daily contributions, using actual 2024 rates for professional equivalents.
 
 **Input**
 
@@ -48,11 +48,6 @@ An interactive value estimator that calculates — in rupees — the real market
 
 ---
 
-## The Pitch — Why Shaadi.com / JeevanSaathi Should Own This
-
-**The Feature**
-Embed GrihaLakshmi as a "Her Worth" card on every bride's profile. Show her family's pledge amount. Make it a conversation starter — not a dowry counter, but an acknowledgement counter.
-
 **The Business Case**
 
 | Angle | Opportunity |
@@ -63,7 +58,6 @@ Embed GrihaLakshmi as a "Her Worth" card on every bride's profile. Show her fami
 | CSR alignment | Complements existing women's empowerment narratives |
 | PR value | "Shaadi.com launches tool to value homemakers" writes itself |
 
-**The Emotional Hook**
 
 When a woman uses this estimator and sees ₹32,400/month on screen for the first time in her life — that moment of recognition is attached to your brand.
 
@@ -124,6 +118,6 @@ India spends ₹1.2 lakh crore on weddings every year. The woman at the centre o
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat&logo=vite)
 ![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-222?style=flat&logo=github)
-![License](https://img.shields.io/badge/License-MIT-gold?style=flat)
+
 
 
