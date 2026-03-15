@@ -279,6 +279,12 @@ export default function GrihaLakshmi() {
                 <button onClick={()=>setPledgeDone(true)} style={{ width:"100%", padding:"14px", borderRadius:"14px", border:"none", background:gold, color:"#1a0535", fontSize:"15px", fontWeight:"bold", cursor:"pointer", fontFamily:"Georgia,serif", boxShadow:"0 4px 20px rgba(255,157,0,0.4)" }}>
                   💛 I Pledge This
                 </button>
+
+                <p style={{ color:"#555", fontSize:"11px", marginTop:"8px", textAlign:"center" }}>
+                  This is a personal commitment, not a financial transaction.
+                  No payment is processed through this tool.
+                </p>
+
               </>
             ) : (
               <div style={{ textAlign:"center" }}>
