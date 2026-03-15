@@ -104,9 +104,9 @@ export default function GrihaLakshmi() {
           📊 {FACTS[factIdx]}
         </div>
 
-        {/* ── REAL STORY CAROUSEL ── */}
+        {/* ── STORY CAROUSEL ── */}
         <div style={{ background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.08)", borderRadius:"16px", padding:"18px 20px", marginBottom:"24px" }}>
-          <div style={{ fontSize:"11px", color:"#888", letterSpacing:"0.1em", marginBottom:"8px", textTransform:"uppercase" }}>Real Story</div>
+          <div style={{ fontSize:"11px", color:"#888", letterSpacing:"0.1em", marginBottom:"8px", textTransform:"uppercase" }}>Stories like this</div>
           <p style={{ fontStyle:"italic", color:"#d4d4e8", fontSize:"14px", lineHeight:1.7, margin:"0 0 10px" }}>
             "{STORIES[storyIdx].quote}"
           </p>
