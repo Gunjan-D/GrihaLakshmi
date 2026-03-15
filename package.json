@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://gunjan-d.github.io/GrihaLakshmi",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -13,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.3.0",
     "vite": "^5.4.0"
   }
 }
