@@ -13,20 +13,7 @@
 
 ## The Problem No One Talks About
 
-| Fact | Source |
-|------|--------|
-| India has **250 million homemakers** | Census 2011 |
-| Their combined unpaid work is worth **₹22.7 lakh crore/year** — larger than the entire IT industry | ILO, 2022 |
-| **81% of Indian women** do daily unpaid domestic work. Only 26% of men do. | NSS 2019 |
-| Indian women spend **7.5 hours/day** on unpaid work. Men spend 2.5 hours. | Time Use Survey 2019 |
-| Only **19% of Indian women** have independent access to a bank account | NFHS-5 |
-| In 2021, Madras HC valued a homemaker's contribution at **₹3 lakh/month** | Court record |
-
 **Not a single matrimonial platform in India acknowledges this.**
-
----
-
-### 🏦 But Now, the Establishment Is Saying It Too
 
 **1. The RBI backed it.**
 A Reserve Bank of India paper in 2024 calculated that homemaker work accounts for **26–36% of India's GDP**. That's not a feminist NGO. That's the central bank.
