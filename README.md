@@ -1,13 +1,13 @@
 # 🏮 GrihaLakshmi — *The Wealth of the Home*
 ### *गृह लक्ष्मी · India's Homemaker Value Estimator*
 
-**🌐 Live Demo → [gunjan-d.github.io/GrihaLakshmi](https://gunjan-d.github.io/GrihaLakshmi/)**
+** Live Demo → [gunjan-d.github.io/GrihaLakshmi](https://gunjan-d.github.io/GrihaLakshmi/)**
 
 ---
 
-## 💡 The Idea in One Line
+## The Idea in One Line
 
-> **What if your wedding app told every woman — before she got married — exactly what her unpaid work would be worth?**
+> **Your mother worked 7.5 hours every day for 30 years. Nobody counted it. We did.**
 
 ---
 
