@@ -128,8 +128,8 @@ export default function GrihaLakshmi() {
         {/* ══ STEP 0: INTRO / NAME ══ */}
         {step === 0 && (
           <div style={{ background:"rgba(255,255,255,0.05)", backdropFilter:"blur(20px)", borderRadius:"24px", border:"1px solid rgba(255,255,255,0.1)", padding:"28px" }}>
-            <h2 style={{ color:"#FFD700", fontSize:"17px", marginTop:0 }}>Who are you calculating for?</h2>
-            <p style={{ color:"#a0a0b8", fontSize:"13px", marginTop:0, lineHeight:1.7 }}>This calculator shows the real market value of a homemaker's daily contributions — based on actual rates paid for cooks, housekeepers, childcare workers, and elder care professionals in India.</p>
+            <h2 style={{ color:"#FFD700", fontSize:"17px", marginTop:0 }}>Who are you estimating for?</h2>
+            <p style={{ color:"#a0a0b8", fontSize:"13px", marginTop:0, lineHeight:1.7 }}>This estimator shows the real market value of a homemaker's daily contributions — based on actual rates paid for cooks, housekeepers, childcare workers, and elder care professionals in India.</p>
 
             <div style={{ marginBottom:"20px" }}>
               <label style={{ color:"#c0c0d8", fontSize:"13px", display:"block", marginBottom:"8px" }}>Her name (optional — makes the report personal)</label>
