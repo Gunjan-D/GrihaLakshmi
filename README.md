@@ -26,6 +26,22 @@
 
 ---
 
+### 🏦 But Now, the Establishment Is Saying It Too
+
+**1. The RBI backed it.**
+A Reserve Bank of India paper in 2024 calculated that homemaker work accounts for **26–36% of India's GDP**. That's not a feminist NGO. That's the central bank.
+
+**2. The Supreme Court said it — verbatim — in 2024.**
+> *"How can a homemaker's income be less than a daily wager?"*
+> — Supreme Court of India, February 2024
+
+This is India's highest court, on record, saying her work has monetary value. Use this in every pitch.
+
+**3. The government is already paying.**
+**118 million Indian women** across 12 states are now receiving government cash transfers specifically for household work. The policy has already started. GrihaLakshmi is ahead of the curve, not behind it. 🎯
+
+---
+
 ## What GrihaLakshmi Does
 
 GrihaLakshmi is an interactive value estimator that calculates — in rupees — the real market worth of a homemaker's daily contributions, using actual 2024 rates for professional equivalents.
