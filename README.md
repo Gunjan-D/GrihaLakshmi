@@ -125,4 +125,4 @@ India is getting married at scale. **₹1.2 lakh crore** is spent on weddings ev
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat&logo=vite)
 ![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-222?style=flat&logo=github)
-![License](https://img.shields.io/badge/License-MIT-gold?style=flat)
+
