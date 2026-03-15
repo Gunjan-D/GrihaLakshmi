@@ -56,7 +56,6 @@ An interactive value estimator that calculates in rupees the real market worth o
 | Virality | Shareable result cards drive organic reach and brand recall |
 | Trust with women | 58% of premium matrimonial users are women or their families |
 | CSR alignment | Complements existing women's empowerment narratives |
-| PR value | "Shaadi.com launches tool to value homemakers" writes itself |
 
 
 When a woman uses this estimator and sees ₹32,400/month on screen for the first time in her life — that moment of recognition is attached to your brand.
@@ -97,8 +96,6 @@ npm run deploy     # Builds and pushes to GitHub Pages
 
 **Gunjan Deshpande** — MS Data Science, Stony Brook University  
 [LinkedIn](https://linkedin.com/in/gunjan-deshpande) · [GitHub](https://github.com/Gunjan-D)
-
-*A concept pitch for: Shaadi.com · JeevanSaathi · Anuroop · Tata Trusts · iSPIRT*
 
 ---
 
