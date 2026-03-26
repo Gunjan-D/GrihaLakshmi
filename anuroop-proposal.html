@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>GrihaLakshmi ✦ Anuroop — Proposal</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --p:#5B2D8E;--pd:#3A1A60;--g:#E8A020;--gl:#F7C45A;
+  --muted:#7A788F;--border:#E2D8F5;
+  --grad:linear-gradient(135deg,#5B2D8E,#3A1A60);
+  --ggold:linear-gradient(135deg,#E8A020,#F7C45A);
+}
+html,body{width:100%;min-height:100vh;}
+body{font-family:'Inter',sans-serif;background:#EDE7FA;color:#1A1A2E;line-height:1.55;}
+a{text-decoration:none;color:inherit;}
+@keyframes up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@keyframes barslide{from{width:0}to{width:var(--bw)}}
+.u1{animation:up .5s .05s both}.u2{animation:up .5s .15s both}
+.u3{animation:up .5s .25s both}.u4{animation:up .5s .35s both}
+
+/* HERO */
+.hero{background:var(--grad);width:100%;padding:60px 6vw 50px;position:relative;overflow:hidden;margin-bottom:0;}
+.hero::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.05);top:-200px;right:-100px;pointer-events:none;}
+.hero::after{content:'';position:absolute;width:350px;height:350px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.04);top:-80px;right:60px;pointer-events:none;}
+.hero-inner{max-width:1300px;margin:0 auto;}
+
+.brand-row{display:flex;align-items:center;gap:0;flex-wrap:wrap;margin-bottom:24px;}
+
+.h1{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,68px);font-weight:900;
+  color:#fff;line-height:1.1;margin-bottom:14px;}
+.h1 em{color:var(--gl);font-style:normal;}
+.h1-sub{font-size:clamp(13px,1.4vw,16px);color:rgba(255,255,255,.75);max-width:680px;line-height:1.7;margin-bottom:36px;}
+
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;
+  background:rgba(255,255,255,.08);border-radius:14px;overflow:hidden;
+  border:1px solid rgba(255,255,255,.1);max-width:900px;}
+.st{padding:16px 14px;text-align:center;}
+.st-n{font-family:'Playfair Display',serif;font-size:clamp(18px,2.2vw,26px);
+  font-weight:800;color:var(--gl);display:block;line-height:1;}
+.st-l{font-size:10px;color:rgba(255,255,255,.5);display:block;margin-top:5px;line-height:1.35;}
+
+/* BEFORE / AFTER */
+.ba-section{width:100%;background:#fff;padding:54px 6vw;}
+.ba-inner{max-width:1300px;margin:0 auto;}
+.section-eyebrow{font-size:10.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--p);display:block;margin-bottom:8px;}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(22px,2.8vw,38px);
+  font-weight:800;color:var(--pd);line-height:1.2;margin-bottom:18px;}
+.section-title span{color:var(--g);}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px;}
+.prob{background:#fff6f6;border-radius:20px;padding:30px 34px;border:1px solid #FFD8D8;}
+.sol{background:#F4EFFF;border-radius:20px;padding:30px 34px;border:1px solid var(--border);}
+.badge{display:inline-block;border-radius:50px;padding:5px 14px;font-size:10px;
+  font-weight:700;letter-spacing:.5px;text-transform:uppercase;margin-bottom:12px;}
+.b-red{background:#FFE4E4;color:#B02020;}
+.b-pur{background:rgba(91,45,142,.1);color:var(--pd);}
+.ct{font-family:'Playfair Display',serif;font-size:clamp(16px,1.6vw,21px);font-weight:800;margin-bottom:10px;}
+.prob .ct{color:#8B2020;}
+.sol .ct{color:var(--pd);}
+.cb{font-size:13px;color:var(--muted);line-height:1.72;}
+.cb strong{color:#1A1A2E;}
+
+/* OLD PROFILE MOCK */
+.mock-old{background:#fff;border-radius:12px;padding:14px 18px;margin-top:14px;border:1px solid #FFD8D8;}
+.mock-old .mn{font-weight:700;font-size:14px;margin-bottom:3px;}
+.mock-old .ms{font-size:11px;color:#AAA;margin-bottom:10px;}
+.m-status{font-size:11px;color:#CC4444;margin-top:8px;display:flex;align-items:center;gap:6px;}
+
+/* WORKING GIRL FEATURE MOCK */
+.wg-mock{background:#fff;border-radius:14px;overflow:hidden;margin-top:14px;
+  border:1.5px solid var(--border);box-shadow:0 4px 20px rgba(91,45,142,.08);}
+.wg-top{background:var(--grad);padding:12px 16px;display:flex;align-items:center;gap:10px;}
+.wg-title{font-size:11px;font-weight:700;color:#fff;letter-spacing:.5px;}
+.wg-sub-title{font-size:10px;color:rgba(255,255,255,.6);}
+.wg-body{padding:14px 16px;}
+.wg-name{font-weight:700;font-size:13px;color:#1A1A2E;}
+.wg-detail{font-size:10.5px;color:#AAA;margin:2px 0 12px;}
+.wg-label{font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;
+  color:var(--p);margin-bottom:6px;}
+
+/* DUTY BARS */
+.duty-list{display:flex;flex-direction:column;gap:7px;margin-bottom:12px;}
+.duty-row{display:grid;grid-template-columns:20px 1fr 38px;gap:8px;align-items:center;}
+.duty-emoji{font-size:14px;text-align:center;}
+.duty-bar-track{background:#F0EBF9;border-radius:50px;height:8px;overflow:hidden;}
+.duty-bar-fill{height:100%;border-radius:50px;background:var(--grad);
+  animation:barslide 1.2s cubic-bezier(.22,1,.36,1) forwards;}
+.duty-hrs{font-size:10px;font-weight:700;color:var(--p);text-align:right;}
+
+/* TOTAL LOAD BOX */
+.load-box{background:linear-gradient(135deg,#FFF7E8,#FFF3D6);border-radius:10px;
+  padding:10px 14px;border:1px solid rgba(232,160,32,.3);margin-bottom:10px;}
+.load-row{display:flex;justify-content:space-between;align-items:center;}
+.load-label{font-size:11px;color:#8B6010;font-weight:600;}
+.load-val{font-size:13px;font-weight:800;color:#E8A020;}
+.load-sub{font-size:10px;color:#AA8030;margin-top:3px;}
+
+.wg-alert{background:#FFFBF0;border-radius:8px;padding:8px 12px;
+  border-left:3px solid var(--g);font-size:11px;color:#7A5800;line-height:1.5;}
+.wg-alert strong{color:#5B4000;}
+
+/* HOMEMAKER BADGE MOCK */
+.hm-mock{background:#fff;border-radius:14px;overflow:hidden;margin-top:12px;
+  border:1.5px solid var(--border);box-shadow:0 4px 20px rgba(91,45,142,.08);}
+.hm-top{background:var(--grad);padding:12px 16px;}
+.hm-title{font-size:11px;font-weight:700;color:#fff;letter-spacing:.5px;}
+.hm-body{padding:16px 16px;}
+.hm-name{font-weight:700;font-size:13px;color:#1A1A2E;margin-bottom:2px;}
+.hm-detail{font-size:10.5px;color:#AAA;margin-bottom:12px;}
+.hm-badge-big{display:flex;align-items:center;gap:10px;background:var(--grad);
+  color:#fff;border-radius:12px;padding:12px 16px;animation:float 3s ease-in-out infinite;
+  box-shadow:0 4px 16px rgba(91,45,142,.3);}
+.hm-badge-icon{font-size:22px;}
+.hm-badge-val{font-family:'Playfair Display',serif;font-size:20px;font-weight:800;color:var(--gl);}
+.hm-badge-sub{font-size:10px;color:rgba(255,255,255,.65);margin-top:2px;}
+.hm-cert{font-size:9.5px;color:var(--p);background:rgba(91,45,142,.07);
+  border-radius:6px;padding:4px 10px;display:inline-block;margin-top:10px;}
+
+/* NUMBERS */
+.nums-section{width:100%;background:#F7F4FF;padding:46px 6vw;}
+.nums-inner{max-width:1300px;margin:0 auto;}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px;}
+.nc{background:#fff;border-radius:18px;padding:26px 24px;border:1px solid var(--border);
+  position:relative;overflow:hidden;}
+.nc::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--ggold);}
+.nc-n{font-family:'Playfair Display',serif;font-size:clamp(26px,3vw,40px);
+  font-weight:800;color:var(--p);display:block;line-height:1;margin-bottom:6px;}
+.nc-t{font-size:13px;font-weight:700;color:#1A1A2E;margin-bottom:6px;}
+.nc-d{font-size:12px;color:var(--muted);line-height:1.55;}
+.nc-tag{display:inline-block;margin-top:10px;background:rgba(91,45,142,.08);
+  color:var(--p);border-radius:50px;padding:3px 12px;font-size:10.5px;font-weight:700;}
+.nc-free{background:rgba(34,160,80,.1);color:#1A7A40;}
+
+/* INTEGRATION */
+.int-section{width:100%;background:#fff;padding:46px 6vw;}
+.int-inner{max-width:1300px;margin:0 auto;}
+.ey{font-size:10.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+  color:var(--p);display:block;margin-bottom:10px;}
+.int{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:0;}
+.ic{border-radius:16px;overflow:hidden;border:1px solid var(--border);}
+.ic-h{padding:20px 22px 14px;}
+.ic1 .ic-h{background:linear-gradient(135deg,#EDE8FA,#F7F4FF);}
+.ic2 .ic-h{background:var(--grad);}
+.ic3 .ic-h{background:linear-gradient(135deg,#3A1A60,#1A0930);}
+.ic-tr{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;}
+.ic1 .ic-tr{color:var(--p);}
+.ic2 .ic-tr,.ic3 .ic-tr{color:rgba(255,255,255,.5);}
+.ic-ti{font-family:'Playfair Display',serif;font-size:18px;font-weight:800;}
+.ic1 .ic-ti{color:var(--pd);}
+.ic2 .ic-ti,.ic3 .ic-ti{color:#fff;}
+.ic-tm{display:inline-block;margin-top:7px;border-radius:50px;padding:3px 10px;font-size:10px;font-weight:700;}
+.ic1 .ic-tm{background:rgba(91,45,142,.1);color:var(--p);}
+.ic2 .ic-tm{background:rgba(255,255,255,.15);color:#fff;}
+.ic3 .ic-tm{background:rgba(232,160,32,.18);color:var(--gl);}
+.ic-b{background:#fff;padding:16px 22px;}
+.ic-l{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.ic-l li{font-size:12px;color:#1A1A2E;display:flex;gap:8px;line-height:1.45;}
+.ic-l li::before{content:'✓';color:var(--p);font-weight:700;flex-shrink:0;}
+.rec-b{background:var(--ggold);color:#fff;border-radius:50px;padding:2px 10px;
+  font-size:9px;font-weight:700;margin-left:8px;vertical-align:middle;}
+
+/* CTA */
+.cta-section{width:100%;background:var(--grad);padding:60px 6vw;text-align:center;position:relative;overflow:hidden;}
+.cta-section::before{content:'';position:absolute;width:500px;height:500px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.06);top:-200px;left:50%;transform:translateX(-50%);pointer-events:none;}
+.cta-inner{max-width:700px;margin:0 auto;position:relative;}
+.cta-h{font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,48px);
+  font-weight:900;color:#fff;line-height:1.15;margin-bottom:14px;}
+.cta-h em{color:var(--gl);font-style:normal;}
+.cta-sub{font-size:14px;color:rgba(255,255,255,.72);max-width:520px;margin:0 auto 32px;line-height:1.7;}
+.btn-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;align-items:stretch;}
+.btn-out{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.35);
+  padding:14px 36px;border-radius:50px;font-size:14px;font-weight:600;display:inline-flex;align-items:center;}
+
+/* FOOTER */
+.foot{background:#1A0930;padding:18px 6vw;display:flex;align-items:center;
+  justify-content:center;flex-wrap:wrap;gap:8px;}
+.foot p{color:rgba(255,255,255,.35);font-size:10.5px;text-align:center;}
+.foot strong{color:rgba(255,255,255,.6);}
+.foot a{color:var(--gl);}
+
+@media(max-width:900px){
+  .two,.nums,.int{grid-template-columns:1fr;}
+  .stats{grid-template-columns:repeat(2,1fr);}
+}
+@media print{
+  body{background:#fff;}
+  *{animation:none!important;}
+  .btn-out{display:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner" style="display:flex;gap:48px;align-items:stretch;">
+
+    <!-- LEFT: all text content -->
+    <div style="flex:1;min-width:0;">
+      <div class="brand-row u1">
+        <span style="font-family:'Playfair Display',serif;font-size:clamp(15px,1.6vw,22px);font-weight:800;color:#fff;letter-spacing:.5px;">GrihaLakshmi</span>
+        <span style="font-size:clamp(10px,1.1vw,14px);color:var(--gl);margin:0 10px;letter-spacing:2px;">✦ ✦</span>
+        <span style="font-family:'Playfair Display',serif;font-size:clamp(15px,1.6vw,22px);font-weight:800;color:var(--gl);letter-spacing:.5px;">Anuroop Matrimony</span>
+      </div>
+      <h1 class="h1 u2">One Feature Every Girl<br/>on Anuroop <em>Deserves to Use</em></h1>
+      <p class="h1-sub u3">India has <strong style="color:#fff">25 crore+ homemakers</strong> contributing <strong style="color:#FFD97A">₹23 lakh crore worth of unpaid work every year</strong> — with zero financial identity on matrimonial profiles. And every <strong style="color:#FFD97A">working girl on Anuroop has no idea what household life awaits her after marriage.</strong> GrihaLakshmi solves both — 100% free for every Anuroop user. <strong style="color:#FFD97A">No platform has done this yet.</strong></p>
+      <div class="stats u4">
+        <div class="st"><span class="st-n">25 Cr+</span><span class="st-l">Homemakers in India</span></div>
+        <div class="st"><span class="st-n">₹23L Cr</span><span class="st-l">Annual unpaid work value</span></div>
+        <div class="st"><span class="st-n">est. 38%</span><span class="st-l">Anuroop female profiles = Homemaker</span></div>
+        <div class="st"><span class="st-n">100%</span><span class="st-l">Free for all Anuroop users</span></div>
+      </div>
+    </div>
+
+    <!-- RIGHT: demo card -->
+    <div class="u3" style="flex-shrink:0;width:clamp(240px,25vw,300px);display:flex;flex-direction:column;align-items:center;justify-content:center;
+      background:linear-gradient(160deg,rgba(255,255,255,.13) 0%,rgba(255,255,255,.05) 100%);
+      border:1.5px solid rgba(255,255,255,.22);border-radius:24px;padding:44px 32px;text-align:center;gap:22px;
+      box-shadow:0 8px 40px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.15);position:relative;overflow:hidden;">
+
+      <!-- subtle glow behind button -->
+      <div style="position:absolute;width:160px;height:160px;border-radius:50%;
+        background:radial-gradient(circle,rgba(232,160,32,.18) 0%,transparent 70%);
+        top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;"></div>
+
+      <!-- eyebrow -->
+      <div style="font-size:10px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;
+        color:rgba(255,255,255,.45);position:relative;">Live Demo</div>
+
+      <!-- headline -->
+      <div style="position:relative;">
+        <div style="font-family:'Playfair Display',serif;font-size:clamp(26px,2.8vw,34px);font-weight:900;
+          color:#fff;line-height:1.15;">See It</div>
+        <div style="font-family:'Playfair Display',serif;font-size:clamp(26px,2.8vw,34px);font-weight:900;
+          color:var(--gl);line-height:1.15;font-style:italic;">Live</div>
+      </div>
+
+      <!-- divider -->
+      <div style="width:40px;height:2px;background:var(--ggold);border-radius:2px;opacity:.6;position:relative;"></div>
+
+      <!-- CTA button -->
+      <a href="https://gunjan-d.github.io/GrihaLakshmi/" target="_blank"
+        style="position:relative;background:var(--ggold);color:#fff;border-radius:50px;
+          padding:14px 32px;font-size:14px;font-weight:700;display:inline-block;
+          box-shadow:0 8px 28px rgba(232,160,32,.55);animation:pulse 2.5s infinite;
+          letter-spacing:.3px;width:100%;">
+        View Live Demo
+      </a>
+
+      <!-- footnote -->
+      <div style="font-size:10.5px;color:rgba(255,255,255,.4);letter-spacing:.3px;position:relative;">
+        Free &nbsp;·&nbsp; No login needed
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- BEFORE / AFTER -->
+<div class="ba-section">
+  <div class="ba-inner">
+    <span class="section-eyebrow">🔄 The Problem → Solution</span>
+    <h2 class="section-title">Two Women. Two Blind Spots.<br/><span>One Feature Fixes Both.</span></h2>
+    <div class="two">
+
+      <!-- LEFT: PROBLEM -->
+      <div class="prob u2">
+        <div class="badge b-red">❌ Today on Anuroop</div>
+        <h2 class="ct">No value shown. No clarity given.</h2>
+        <p class="cb">
+          <strong>For homemakers:</strong> The word “Housewife” hides months of real work. Match requests fall. She feels invisible.<br/><br/>
+          <strong>For working girls:</strong> She picks a match without knowing — how many people are in the family? Who currently does the cooking? Is there elder care? Will she manage a full-time job <em>and</em> run a home of 6? <strong>Anuroop gives her zero visibility into this before she says yes.</strong>
+        </p>
+        <!-- Working girl mock: BEFORE -->
+        <div class="mock-old" style="margin-bottom:10px;">
+          <div class="mn">Priya S., 26 · Pune · Software Engineer</div>
+          <div class="ms">Viewing match — Joint family, 5 members</div>
+          <div style="background:#FFF0F0;border-radius:8px;padding:10px 12px;border:1px solid #FFCACA;">
+            <div style="font-size:11.5px;font-weight:600;color:#AA2020;margin-bottom:7px;">❓ What she doesn’t know before accepting:</div>
+            <div style="display:flex;flex-direction:column;gap:5px;">
+              <div style="font-size:11px;color:#CC4444;display:flex;gap:7px;align-items:center;"><span>✗</span> How many meals to cook daily?</div>
+              <div style="font-size:11px;color:#CC4444;display:flex;gap:7px;align-items:center;"><span>✗</span> Is there an elderly parent needing care?</div>
+              <div style="font-size:11px;color:#CC4444;display:flex;gap:7px;align-items:center;"><span>✗</span> Who currently manages the home?</div>
+              <div style="font-size:11px;color:#CC4444;display:flex;gap:7px;align-items:center;"><span>✗</span> Can she manage 8 hrs office + this home?</div>
+            </div>
+          </div>
+        </div>
+        <!-- Homemaker mock: BEFORE -->
+        <div class="mock-old">
+          <div class="mn">Sneha K., 27 · Mumbai · Homemaker</div>
+          <div class="ms">Brahmin · Graduate · Maharashtra</div>
+          <span style="background:#FFE8E8;color:#AA3333;border-radius:6px;padding:4px 12px;font-size:12px;font-weight:600;text-decoration:line-through;display:inline-block;">Occupation: Housewife</span>
+          <div class="m-status">↓ Fewer match requests · ↓ Profile views · She leaves Anuroop</div>
+        </div>
+      </div>
+
+      <!-- RIGHT: SOLUTION -->
+      <div class="sol u3">
+        <div class="badge b-pur">✅ With GrihaLakshmi on Anuroop — Free</div>
+        <h2 class="ct">Every girl gets clarity. Every match becomes informed.</h2>
+        <p class="cb">
+          <strong>For homemakers:</strong> A 2-min calculator puts a true number to years of invisible effort — acknowledged and displayed as a verified badge on her profile. Matches improve instantly.<br/><br/>
+          <strong>For working girls:</strong> She fills in the family details of her potential match — GrihaLakshmi instantly shows her <strong>the expected home workload, how it combines with her job hours, and what it’s worth.</strong> Full transparency. No surprises after marriage.
+        </p>
+
+        <!-- Working girl mock: AFTER -->
+        <div class="wg-mock">
+          <div class="wg-top">
+            <div style="flex:1;">
+              <div class="wg-title">🏠 GrihaLakshmi — Workload Preview</div>
+              <div class="wg-sub-title">What your life looks like after marriage with this family</div>
+            </div>
+          </div>
+          <div class="wg-body">
+            <div class="wg-name">Priya S., 26 · Software Engineer · Pune</div>
+            <div class="wg-detail">Viewing: Joint family of 5 · Nagpur · 1 elder parent at home</div>
+            <div class="wg-label">Expected daily home duties (after marriage)</div>
+            <div class="duty-list">
+              <div class="duty-row">
+                <span class="duty-emoji">🍳</span>
+                <div><div style="font-size:10.5px;font-weight:600;color:#1A1A2E;margin-bottom:3px;">Cooking &amp; Meals (family of 5)</div>
+                <div class="duty-bar-track"><div class="duty-bar-fill" style="--bw:75%;width:0"></div></div></div>
+                <span class="duty-hrs">2 hrs</span>
+              </div>
+              <div class="duty-row">
+                <span class="duty-emoji">🧹</span>
+                <div><div style="font-size:10.5px;font-weight:600;color:#1A1A2E;margin-bottom:3px;">Cleaning &amp; Household</div>
+                <div class="duty-bar-track"><div class="duty-bar-fill" style="--bw:38%;width:0"></div></div></div>
+                <span class="duty-hrs">1 hr</span>
+              </div>
+              <div class="duty-row">
+                <span class="duty-emoji">👵</span>
+                <div><div style="font-size:10.5px;font-weight:600;color:#1A1A2E;margin-bottom:3px;">Elder Care (daily)</div>
+                <div class="duty-bar-track"><div class="duty-bar-fill" style="--bw:50%;width:0"></div></div></div>
+                <span class="duty-hrs">1.5 hr</span>
+              </div>
+              <div class="duty-row">
+                <span class="duty-emoji">🛒</span>
+                <div><div style="font-size:10.5px;font-weight:600;color:#1A1A2E;margin-bottom:3px;">Groceries &amp; Management</div>
+                <div class="duty-bar-track"><div class="duty-bar-fill" style="--bw:25%;width:0"></div></div></div>
+                <span class="duty-hrs">0.5 hr</span>
+              </div>
+              <div class="duty-row" style="border-top:1px solid var(--border);padding-top:7px;margin-top:3px;">
+                <span class="duty-emoji">💼</span>
+                <div><div style="font-size:10.5px;font-weight:600;color:var(--p);margin-bottom:3px;">Your Office Job</div>
+                <div class="duty-bar-track"><div class="duty-bar-fill" style="--bw:100%;width:0;background:linear-gradient(90deg,#5B2D8E,#8B5CC8)"></div></div></div>
+                <span class="duty-hrs" style="color:var(--p);">8 hrs</span>
+              </div>
+            </div>
+            <div class="load-box">
+              <div class="load-row">
+                <span class="load-label">⏱ Total daily load (work + home)</span>
+                <span class="load-val">13 hrs/day</span>
+              </div>
+              <div class="load-row" style="margin-top:4px;">
+                <span class="load-label">💰 Equivalent home contribution</span>
+                <span class="load-val">₹42,000/month</span>
+              </div>
+              <div class="load-sub">Based on professional service rates for equivalent work in Nagpur area</div>
+            </div>
+            <div class="wg-alert">
+              <strong>GrihaLakshmi says:</strong> You’re taking on ₹42,000/month of home work <em>in addition to</em> your full-time job. This is <strong>not a warning — it’s your right to know.</strong> Make your decision with full clarity.
+            </div>
+          </div>
+        </div>
+
+        <!-- Homemaker mock: AFTER -->
+        <div class="hm-mock">
+          <div class="hm-top">
+            <div class="hm-title">🏠 GrihaLakshmi — Verified Badge</div>
+          </div>
+          <div class="hm-body">
+            <div class="hm-name">Sneha K., 27 · Mumbai · Homemaker</div>
+            <div class="hm-detail">Brahmin · Graduate · Maharashtra</div>
+            <div class="hm-badge-big">
+              <div class="hm-badge-icon">🏠</div>
+              <div>
+                <div class="hm-badge-val">₹28,400 / month</div>
+                <div class="hm-badge-sub">Verified Home Contribution · GrihaLakshmi</div>
+              </div>
+            </div>
+            <div class="hm-cert">✅ Anuroop Certified · Based on market rates for professional home services</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- 3 NUMBERS -->
+<div class="nums-section">
+  <div class="nums-inner">
+    <span class="section-eyebrow">📊 Why This Works for Anuroop</span>
+    <h2 class="section-title">What Anuroop <span>Gains from Day One</span></h2>
+    <div class="nums">
+      <div class="nc u1">
+        <span style="font-size:26px;display:block;margin-bottom:10px;">👥</span>
+        <span class="nc-n">12K–20K</span>
+        <div class="nc-t">New Users in 6 Months</div>
+        <div class="nc-d">Every share card drives 3–8 new sign-ups from family/friends who want to try it. Zero paid media needed.</div>
+        <span class="nc-tag">↑ User Acquisition</span>
+      </div>
+      <div class="nc u2">
+        <span style="font-size:26px;display:block;margin-bottom:10px;">🔓</span>
+        <span class="nc-n">Free</span>
+        <div class="nc-t">For Every Anuroop User</div>
+        <div class="nc-d">Not a premium feature. Both homemakers and working girls get full access. Higher engagement = more matches = more subscriptions.</div>
+        <span class="nc-tag nc-free">↑ Platform-Wide Engagement</span>
+      </div>
+      <div class="nc u3">
+        <span style="font-size:26px;display:block;margin-bottom:10px;">🏆</span>
+        <span class="nc-n">First</span>
+        <div class="nc-t">Platform in India to Do This</div>
+        <div class="nc-d">No competitor offers marriage transparency + homemaker recognition. Anuroop becomes the platform that truly respects women — in recognition and in clarity.</div>
+        <span class="nc-tag">↑ First-Mover Advantage</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- INTEGRATION OPTIONS -->
+<div class="int-section">
+  <div class="int-inner">
+    <span class="ey">⚙️ 3 Ways to Integrate — Anuroop Picks the Pace</span>
+    <h2 class="section-title" style="margin-bottom:24px;">Simple to Build. <span>Impossible to Ignore.</span></h2>
+    <div class="int">
+
+      <div class="ic ic1">
+        <div class="ic-h">
+          <div class="ic-tr">Option 1</div>
+          <div class="ic-ti">Profile Badge</div>
+          <div class="ic-tm">⏱ 2–3 weeks</div>
+        </div>
+        <div class="ic-b"><ul class="ic-l">
+          <li>Recognition badge for homemakers when profile is created</li>
+          <li>Frontend only — no backend changes needed</li>
+          <li>Free for all users who complete the calculator</li>
+        </ul></div>
+      </div>
+
+      <div class="ic ic2">
+        <div class="ic-h">
+          <div class="ic-tr">Option 2<span class="rec-b">★ Recommended</span></div>
+          <div class="ic-ti">Full Feature</div>
+          <div class="ic-tm">⏱ 4–6 weeks</div>
+        </div>
+        <div class="ic-b"><ul class="ic-l">
+          <li>GrihaLakshmi section inside Anuroop app</li>
+          <li>Free for <strong>all users</strong> — homemakers &amp; working girls</li>
+          <li>Workload preview for working girls viewing prospective families</li>
+          <li>Auto-email to existing homemaker profiles to claim their badge</li>
+          <li>WhatsApp / Instagram viral share card generator</li>
+        </ul></div>
+      </div>
+
+      <div class="ic ic3">
+        <div class="ic-h">
+          <div class="ic-tr">Option 3</div>
+          <div class="ic-ti">Viral Campaign</div>
+          <div class="ic-tm">⏱ 6–8 weeks</div>
+        </div>
+        <div class="ic-b">
+          <ul class="ic-l" style="margin-bottom:12px;">
+            <li>Everything in Option 2 included</li>
+          </ul>
+
+          <div style="font-size:9.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--p);margin-bottom:7px;">📱 Social Platforms</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:12px;">
+            <div style="background:#E8F4FD;border-radius:6px;padding:6px 8px;">
+              <div style="font-size:10px;font-weight:700;color:#005582;">🔵 LinkedIn</div>
+              <div style="font-size:9.5px;color:#336;">Working women · startup PR · 50K+ reach</div>
+            </div>
+            <div style="background:#FDF0F8;border-radius:6px;padding:6px 8px;">
+              <div style="font-size:10px;font-weight:700;color:#8B1A50;">📸 Instagram · Threads</div>
+              <div style="font-size:9.5px;color:#5A1A3A;">Reels · stories · #GrihaLakshmiChallenge</div>
+            </div>
+            <div style="background:#FFF4F0;border-radius:6px;padding:6px 8px;">
+              <div style="font-size:10px;font-weight:700;color:#900;">▶️ YouTube · Moj · Josh</div>
+              <div style="font-size:9.5px;color:#600;">Hindi / Marathi / Gujarati shorts</div>
+            </div>
+            <div style="background:#F0FBF0;border-radius:6px;padding:6px 8px;">
+              <div style="font-size:10px;font-weight:700;color:#1A6A30;">💬 WhatsApp · ShareChat</div>
+              <div style="font-size:9.5px;color:#1A4A20;">Viral cards · FB matrimony groups</div>
+            </div>
+            <div style="background:#F5F5F5;border-radius:6px;padding:6px 8px;grid-column:span 2;">
+              <div style="font-size:10px;font-weight:700;color:#0A6A9A;">🐦 X (Twitter) · NRI Networks</div>
+              <div style="font-size:9.5px;color:#0A3A5A;">Hashtag push with journalists &amp; women’s advocates · diaspora amplification</div>
+            </div>
+          </div>
+
+          <div style="font-size:9.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--p);margin-bottom:7px;">📰 PR &amp; Media</div>
+          <div style="background:#F9F6FF;border-radius:8px;padding:9px 12px;font-size:10px;color:#333;line-height:1.65;border:1px solid #DDD;">
+            Maharashtra Times · Loksatta · Gujarat Samachar · Divya Bhaskar<br/>
+            Femina · SheThePeople · YourStory · Inc42 · India Today Women<br/>
+            Zee Marathi · Zee Gujarati · ABP Majha
+            <div style="margin-top:6px;padding:5px 8px;background:var(--grad);color:#fff;border-radius:5px;font-size:9.5px;font-style:italic;text-align:center;">"Anuroop — where every woman’s contribution is truly seen"</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-section">
+  <div class="cta-inner u1">
+    <h2 class="cta-h">Anuroop Becomes <em>India’s Most<br/>Transparent &amp; Empowering</em> Matrimonial Platform</h2>
+    <p class="cta-sub">The feature is live and demo-ready. A 15-minute call is all it takes to see exactly how GrihaLakshmi works inside Anuroop — free for every user, on your timeline, your terms.</p>
+    <div class="btn-row">
+      <a href="https://gunjan-d.github.io/GrihaLakshmi/" target="_blank" class="btn-out">🔗 View Live Demo</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="foot">
+  <p><strong>Gunjan Deshpande</strong> · MS Data Science · <a href="mailto:gunjandeshpande490@gmail.com">gunjandeshpande490@gmail.com</a></p>
+</div>
+
+<script>
+const barObs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.querySelectorAll('.duty-bar-fill').forEach(b=>{
+        const target=b.style.getPropertyValue('--bw');
+        b.style.width=target;
+      });
+      barObs.unobserve(e.target);
+    }
+  });
+},{threshold:0.2});
+document.querySelectorAll('.duty-list').forEach(el=>barObs.observe(el));
+</script>
+</body>
+</html>
