@@ -3,7 +3,7 @@
 
 **Live Demo → [gunjan-d.github.io/GrihaLakshmi](https://gunjan-d.github.io/GrihaLakshmi/)**
 
-**Partnership Proposal → [GrihaLakshmi × Anuroop Matrimony](https://gunjan-d.github.io/GrihaLakshmi/feature.html)**
+**Website → [GrihaLakshmi](https://gunjan-d.github.io/GrihaLakshmi/feature.html)**
 
 ---
 
